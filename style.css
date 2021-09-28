@@ -1,0 +1,72 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+ul {
+  padding: 0;
+}
+
+a {
+  color: rgb(110, 110, 110);
+  text-decoration: none;
+}
+
+h1 {
+  font-size: larger;
+  margin-left: 0.7em;
+}
+
+h2 {
+  font-size: 40px;
+  margin-left: 13px;
+}
+
+.button {
+  background-color: black;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  padding: 0.5em;
+  margin-left: 1em;
+  margin-right: 1em;
+  text-align: center;
+}
+
+.button-text {
+  color: white;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(241, 208, 178);
+  margin-top: 29.9em;
+  padding-left: 1em;
+  padding-right: 0.6em;
+}
+
+.footer-list {
+  float: left;
+  margin-right: 1em;
+}
+
+li {
+  display: flex;
+}
+
+.header-list {
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+.lorem-paragraph {
+  margin-left: 1em;
+  padding-left: 1em;
+  text-decoration: solid;
+  border-left: solid 4px grey;
+  color: grey;
+}
+
+.chirpus-text {
+  color: black;
+}
